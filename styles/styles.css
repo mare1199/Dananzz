@@ -127,6 +127,7 @@
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
+  color: #333;
 }
 
 .about-details-section {
@@ -265,6 +266,7 @@
   justify-content: space-between;
   margin-top: 30px;
   align-items: flex-start;
+  color: #333;
 }
 
 .product-heading-left {
@@ -305,16 +307,65 @@
 .product-type-details h4,
 p {
   width: 40%;
+  color: #333;
 }
 
 .product-type-details h4 {
   font-size: 32px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  color: #333;
 }
 
 .product-type-details p {
   font-size: 18px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.material-section {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  color: #333;
+}
+
+.material-heading-section {
+  width: 40%;
+}
+
+.material-heading-section h2 {
+  font-weight: 600;
+  font-size: 36px;
+  width: 70%;
+  color: #333;
+}
+
+.material-heading-section p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+  margin-top: 40px;
+  color: #333;
+}
+
+.material-heading-section button {
+  padding: 10px 15px;
+  margin-top: 40px;
+  background: transparent;
+  border: 1px solid #333;
+  outline: none;
+  border-radius: 4px;
+  color: #333;
+}
+
+.material-image-section {
+  width: 60%;
+  display: flex;
+  gap: 30px;
+}
+
+.material-small-image {
+  margin-top: -60px;
 }
